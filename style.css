@@ -1,0 +1,76 @@
+:root{
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --white: #FFFFFF;
+    --black: #000000;
+    --dark: #232830; 
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+header{
+    width: 100%;
+    width: 500px;
+   height: 150px;
+   text-align: center;
+   margin-right: auto;
+   margin-left: auto;
+   background-color: var(--text-input-field);
+    border: none;
+    border-radius: 8px;
+
+}
+.cuadrado{
+    display: grid;
+    place-items: center;
+
+}
+.triangulo{
+    display: grid;
+    place-items: center;
+}
+.circulo{
+    display: grid;
+    place-items: center;
+}
+.isoceles{
+    display: grid;
+    place-items: center;
+}
+
+div{
+   width: 500px;
+   height: 400px;
+   background-color: papayawhip;
+   margin: 30px;
+}
+form{
+   display: flex;
+   flex-direction: column;
+}
+input{
+   text-align: center;
+   margin-right: auto;
+   margin-left: auto;
+   width: 150px;
+   margin-bottom: 10px;
+   margin-top: 8px;
+}
+button{
+    background-color: var(--hospital-green);
+    border: none;
+    border-radius: 8px;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 25px;
+    margin-bottom: 10px;
+
+}
